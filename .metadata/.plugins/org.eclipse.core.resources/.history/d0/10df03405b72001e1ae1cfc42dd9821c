@@ -1,0 +1,49 @@
+package studyClass;
+
+/** 모든 클래스는 Object를 상속 받음 */
+public class InheriPerson extends Object{
+
+	private String name;
+	private int age;
+	
+	
+	public InheriPerson(String name, int age) {
+		this.name = name;
+		this.age = age;
+	}
+
+
+	public String getName() {
+		return name;
+	}
+
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public int getAge() {
+		return age;
+	}
+
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+	
+	
+	@Override
+	// 오버라이드 => Object 부모에 있는 매서드를 재 정의
+	public String toString() {
+		return "Person / name : " + name + ", age : " + age;
+	}
+	
+	// 오버 로딩 => 
+	public String toString( int a) {
+		return "Person / name : " + name + ", age : " + age;
+	}
+	
+	
+	
+}

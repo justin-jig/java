@@ -1,0 +1,11 @@
+package studyClass;
+
+public class InheriStudent extends InheriPerson {
+
+	public InheriStudent(String name, int age) {
+		super(name, age);
+	
+	}
+	
+	
+}

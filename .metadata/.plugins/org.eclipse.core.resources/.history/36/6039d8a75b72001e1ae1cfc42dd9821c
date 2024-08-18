@@ -1,0 +1,18 @@
+package studyClass;
+
+public class Inheritance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		InheriPerson person = new InheriPerson("홍길동", 30);
+		
+		System.out.println(person.toString(3));
+		
+		
+		InheriStudent sutudent = new InheriStudent("이몽룡", 32, "컴퓨터공학");
+
+		
+	}
+
+}

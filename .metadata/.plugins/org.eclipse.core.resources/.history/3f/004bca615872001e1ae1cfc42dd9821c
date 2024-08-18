@@ -1,0 +1,12 @@
+package studyClass;
+
+public class InheriPerson {
+
+	private String name;
+	private int age;
+	
+	
+	
+	
+	
+}

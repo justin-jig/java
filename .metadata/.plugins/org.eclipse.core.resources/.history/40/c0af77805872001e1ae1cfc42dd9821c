@@ -1,0 +1,19 @@
+package studyClass;
+
+public class InheriPerson {
+
+	private String name;
+	private int age;
+	
+	
+	public InheriPerson(String name, int age) {
+		super();
+		this.name = name;
+		this.age = age;
+	}
+	
+	
+	
+	
+	
+}
